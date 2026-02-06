@@ -294,3 +294,32 @@ img {
 .feature-icon-wrapper svg {
   fill: #2e2f42;
 }
+
+/* burasi tamamen hero altindaki icon olaylari*/
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-card {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-icon-wrapper {
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon-wrapper svg {
+  fill: #2e2f42;
+}
+/* icon olaylari bitti*/
