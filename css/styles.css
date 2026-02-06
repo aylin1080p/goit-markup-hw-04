@@ -291,3 +291,6 @@ img {
   color: #f4f4fd;
   line-height: 24px;
 }
+.feature-icon-wrapper svg {
+  fill: #2e2f42;
+}
