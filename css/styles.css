@@ -102,6 +102,7 @@ img {
 }
 
 .link {
+  position: relative;
   display: block;
   padding: 16px 0;
   font-weight: 500;
@@ -111,10 +112,29 @@ img {
   color: #2e2f42;
   line-height: 40px;
 }
+.link::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background-color: #404bbf;
+  border-radius: 2px;
+
+  opacity: 0;
+}
 
 .link:hover,
 .link:focus {
   color: #404bbf;
+}
+.link:hover::after,
+.link:focus::after {
+  opacity: 1;
 }
 
 .contacts {
@@ -142,7 +162,19 @@ img {
 /* ===== HERO ===== */
 
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #2e2f42;
+
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/hero-bg.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+
   padding: 188px 0;
   text-align: center;
 }
