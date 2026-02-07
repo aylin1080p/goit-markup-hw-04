@@ -388,4 +388,11 @@ img {
 }
 .social-link svg {
   fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
+}
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
