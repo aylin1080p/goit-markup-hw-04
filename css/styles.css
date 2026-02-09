@@ -272,7 +272,7 @@ img {
 }
 
 .team-card-content {
-  padding: 16px;
+  padding: 32px; /* burada revize */
   text-align: center;
 
   display: flex;
